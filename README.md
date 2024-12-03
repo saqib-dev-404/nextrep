@@ -44,7 +44,3 @@ In the `middleware.js` file, I have defined protected routes that require authen
 
 Regards,
 [SAQIB ALI](https://github.com/saqib-dev-404)
-
-```
-
-```
