@@ -29,9 +29,22 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Environment Variables
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js uses the [`.env.local`](https://nextjs.org/docs/basic-features/environment-variables) file to inject environment variables into the app.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# nextrep
+- NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_xxxxxxxxxxxxxxxxxxxx
+- CLERK_SECRET_KEY=sk_xxxxxxxxxxxxxxxxxxxx
+- NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+- NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
+## In middleware.js:
+
+In the `middleware.js` file, I have defined protected routes that require authentication.
+
+Regards,
+[SAQIB ALI](https://github.com/saqib-dev-404)
+
+```
+
+```
